@@ -1,5 +1,8 @@
 {
   "private": true,
+  "pnpm": {
+    "onlyBuiltDependencies": ["bcrypt"]
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
